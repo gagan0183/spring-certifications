@@ -1,0 +1,10 @@
+package com.springinactionknights;
+
+import com.springinaction.knights.Quest;
+
+public class BraveKnightTest {
+	
+	public void knightShouldEmbarkOnQuest() {
+		Quest mockQuest = Mockito
+	}
+}

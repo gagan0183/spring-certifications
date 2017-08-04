@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/Volumes/Education/learn/spring certifications/springcertifications/.metadata/.plugins/org.eclipse.jdt.core
+26602091.index
+3388416656.index
+2771039456.index
