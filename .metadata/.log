@@ -5890,3 +5890,6 @@ org.eclipse.jface.text.BadLocationException
 
 !ENTRY org.eclipse.jdt.core 4 969 2017-08-05 18:44:47.393
 !MESSAGE import org.junit.Assert [in <import container> [in [Working copy] CdPlayerTest.java [in soundsystem [in src/test/java [in spring-actions]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2017-08-05 18:59:19.633
+!MESSAGE compa [in CdPlayerConfig [in [Working copy] CdPlayerConfig.java [in soundsystem [in src/main/java [in spring-actions]]]]] does not exist
