@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class CdPlayerTest {
 		
 	@Autowired
-	private SgtPeppers compactDisc;
+	private BlankDIsc compactDisc;
 	
 	@Autowired
 	private MediaPlayer mediaPlayer;
