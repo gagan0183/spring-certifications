@@ -4,26 +4,32 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
 
 @Aspect
+@Component
 public class Audience {
 	
-	@Before("execution(** com.aop.perform(..)")
+	@Pointcut("execution(* *.perform(..))")
+	public void perform() {}
+	
+	@Before("perform()")
 	public void silenceCellPhones() {
 		System.out.println("Silencing cell phones");
 	}
 	
-	@Before("execution(** com.aop.perform(..)")
+	@Before("perform()")
 	public void takeSeats() {
 		System.out.println("taking seats");
 	}
 	
-	@AfterReturning("execution(** com.aop.perform(..))")
+	@AfterReturning("perform()")
 	public void applause() {
 		System.out.println("CLAP");
 	}
 	
-	@AfterThrowing("execution(** com.aop.perform(..))")
+	@AfterThrowing("perform()")
 	public void notapptheperfom() {
 		System.out.println("not app the perfom");
 	}
