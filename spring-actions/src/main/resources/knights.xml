@@ -11,6 +11,7 @@
 	
 	<bean id="quest" class="com.springinaction.knights.SlayDragonQuest">
 		<constructor-arg value="#{T(System).out}"></constructor-arg>
+		<constructor-arg value="#{2 * T(java.lang.Math).PI}"></constructor-arg>
 	</bean>
 	
 	<bean id="minstrel" class="com.springinaction.knights.Minstrels">

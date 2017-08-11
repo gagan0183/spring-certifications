@@ -10,7 +10,7 @@ public class Enjoy {
 	private Dessert dessert;
 	
 	@Autowired
-	@Qualifier("icecream")
+	@Cold
 	public void setDessert(Dessert dessert) {
 		this.dessert = dessert;
 	}
