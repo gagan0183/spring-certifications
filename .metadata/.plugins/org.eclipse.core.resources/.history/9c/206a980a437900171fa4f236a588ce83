@@ -1,5 +1,0 @@
-package com.springinaction.knights;
-
-public class BraveKnight implements Quest {
-	
-}

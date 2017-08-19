@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.mockito.Mockito"/>
-<fullyQualifiedTypeName name="com.springinaction.knights.BraveKnight"/>
-<fullyQualifiedTypeName name="com.springinaction.knights.Quest"/>
 <fullyQualifiedTypeName name="com.springinaction.knights.SlayDragonQuest"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -26,9 +23,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="soundsystem.BlankDIsc"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Enjoy"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Config"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
@@ -38,7 +33,6 @@
 <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Cold"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Creamy"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Scopes"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
@@ -46,11 +40,24 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="soundsystem.CdConfig"/>
 <fullyQualifiedTypeName name="soundsystem.CompactDisc"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.PropertySourcesPlaceholderConfigurer"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="com.springinaction.autowiring.Dessert"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="com.aop.Audience"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.aop.Config"/>
+<fullyQualifiedTypeName name="com.aop.Performance"/>
+<fullyQualifiedTypeName name="com.aop.ConcertsPerformances"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>
