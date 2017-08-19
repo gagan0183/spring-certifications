@@ -12,9 +12,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.comp.app.config.RootConfig;
 import com.comp.app.config.SpittersWebAppInitalizer;
-import com.comp.app.config.WebConfig;
 import com.comp.app.controller.HomeController;
 
 @RunWith(SpringJUnit4ClassRunner.class)
