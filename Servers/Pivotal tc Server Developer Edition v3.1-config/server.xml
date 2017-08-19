@@ -16,7 +16,7 @@
             </Realm>
             <Host appBase="webapps" autoDeploy="true" deployOnStartup="true" deployXML="true" name="localhost" unpackWARs="true">
                 <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
-            </Host>
+            <Context docBase="SpittersWebAppInitializer" path="/app" reloadable="true" source="org.eclipse.jst.jee.server:SpittersWebAppInitializer"/></Host>
         </Engine>
         <Connector SSLEnabled="true" acceptCount="100" clientAuth="false" connectionTimeout="20000" executor="tomcatThreadPool" keystoreFile="/Volumes/Personal/certifications_knowledge/spring" keystorePass="password" maxKeepAliveRequests="15" port="${bio.http.port}" protocol="org.apache.coyote.http11.Http11Protocol" redirectPort="${bio.https.port}" scheme="HTTPS" secure="true" sslProtocol="TLSv1"/>
     </Service>
