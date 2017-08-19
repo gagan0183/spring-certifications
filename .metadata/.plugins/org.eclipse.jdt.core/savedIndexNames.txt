@@ -15,10 +15,8 @@ INDEX VERSION 1.127+/Volumes/Education/learn/spring certifications/springcertifi
 4262039355.index
 416938029.index
 1723763271.index
-1678978418.index
 4123413919.index
 2172485273.index
-13195951.index
 121858321.index
 2107494276.index
 2185987084.index
@@ -30,10 +28,8 @@ INDEX VERSION 1.127+/Volumes/Education/learn/spring certifications/springcertifi
 1447480416.index
 1238521376.index
 353569385.index
-1764468531.index
 3294639738.index
 1165256066.index
-537293011.index
 2856792050.index
 1393442523.index
 763306225.index
@@ -42,6 +38,7 @@ INDEX VERSION 1.127+/Volumes/Education/learn/spring certifications/springcertifi
 3388416656.index
 2771039456.index
 3018421604.index
+143431974.index
 2681140119.index
 3158090077.index
 2285240356.index
