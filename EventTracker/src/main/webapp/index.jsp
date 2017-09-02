@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	This is jsp 1
+	Hello ${event.name}
+	
+	<br />
+	<a href="event.html">
+		Event
+	</a>
+	<br />
+	<a href="attendee.html">
+		Attendee
+	</a>
 </body>
 </html>
